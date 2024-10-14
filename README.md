@@ -1,1 +1,2 @@
 # ds_module22_home_sales
+This challenge involves using SparkSQL to analyze and optimize queries on home sales data. Using Google Colab, I imported Spark and PySpark, created a temporary DataFrame, and ran several SQL queries. Performance was enhanced by partitioning the data by "date_built" with Parquet, caching a temporary table, and re-running the queries, which showed notable reductions in execution time.
